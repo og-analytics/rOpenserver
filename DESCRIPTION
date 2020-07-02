@@ -29,4 +29,4 @@ Remotes: omegahat/RDCOMClient
 RoxygenNote: 7.1.1
 Roxygen: list(r6 = FALSE)
 VignetteBuilder: knitr
-URL: https://github.com/f0nzie/rOpenserver
+URL: https://github.com/og-analytics/rOpenserver

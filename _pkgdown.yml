@@ -1,4 +1,4 @@
-url: https://github.com/f0nzie/rOpenserver
+url: https://github.com/og-analytics/rOpenserver
 
 template:
   params:
@@ -75,4 +75,4 @@ navbar:
   - text: Changelog
     href: news/index.html
   - icon: fa-github fa-lg
-    href: https://github.com/f0nzie/rOpenserver
+    href: https://github.com/og-analytics/rOpenserver

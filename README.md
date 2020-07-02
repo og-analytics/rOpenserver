@@ -13,11 +13,11 @@ advanced fine control of solvers and calculations.
 `rOpenserver` is not in [CRAN](https://cran.r-project.org/) yet but in
 the meantime, you can install it from GtiHub using the `devtools`
 package, from the [rOpenserver
-repository](https://github.com/f0nzie/rOpenserver) with:
+repository](https://github.com/og-analytics/rOpenserver) with:
 
 ``` r
 install.packages("devtools")
-devtools::install_github("f0nzie/rOpenserver", dependencies = TRUE)
+devtools::install_github("og-analytics/rOpenserver", dependencies = TRUE)
 ```
 
 The argument `dependencies` has the role of downloading and installing

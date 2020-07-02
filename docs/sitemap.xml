@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/index.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/index.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/createCOMReference.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/createCOMReference.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/DoCmd.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/DoCmd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/DoGAPFunc.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/DoGAPFunc.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/DoGet.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/DoGet.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/DoSet.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/DoSet.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/DoSlowCmd.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/DoSlowCmd.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/dot-OpenServer.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/dot-OpenServer.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/named.list.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/named.list.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/newOpenServer.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/newOpenServer.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/openserver.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/openserver.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/OpenServerR6.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/OpenServerR6.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/openserver_to_character.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/openserver_to_character.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/openserver_to_date.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/openserver_to_date.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/openserver_to_double.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/openserver_to_double.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/openserver_to_integer.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/openserver_to_integer.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/rDoGet.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/rDoGet.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/read_openserver_status.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/read_openserver_status.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/remove_models_but_zip.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/remove_models_but_zip.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/remove_models_by_ext.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/remove_models_by_ext.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/rOpenserver-package.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/rOpenserver-package.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/setOpenServer.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/setOpenServer.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/reference/unzip_model_pack.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/reference/unzip_model_pack.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/gap-hello_world.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/gap-hello_world.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/mbal-hello_world.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/mbal-hello_world.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/notebooks/mbalPredByOoip.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/notebooks/mbalPredByOoip.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/notebooks/prosperHorizNodeSys.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/notebooks/prosperHorizNodeSys.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/notebooks/prosperHorizSys.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/notebooks/prosperHorizSys.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/notebooks/prosperOilwellHtc.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/notebooks/prosperOilwellHtc.html</loc>
   </url>
   <url>
-    <loc>https://github.com/f0nzie/rOpenserver/articles/prosper-hello_world.html</loc>
+    <loc>https://github.com/og-analytics/rOpenserver/articles/prosper-hello_world.html</loc>
   </url>
 </urlset>
