@@ -125,7 +125,7 @@
   <a href="../news/index.html">Changelog</a>
 </li>
 <li>
-  <a href="https://github.com/f0nzie/rOpenserver">
+  <a href="https://github.com/og-analytics/rOpenserver">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
@@ -144,7 +144,7 @@
   <div class="col-md-9 contents">
     <div class="page-header">
       <h1 data-toc-skip>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/f0nzie/rOpenserver/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+      <small>Source: <a href='https://github.com/og-analytics/rOpenserver/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
     <div id="ropenserver-0109015" class="section level1">
@@ -152,7 +152,7 @@
 <a href="#ropenserver-0109015" class="anchor"></a>rOpenserver 0.1.0.9015</h1>
 <ul>
 <li>use <code>.OpenServer</code> (dot-OpenServer) instead of <code>OpenServer</code> for the R6 class</li>
-<li>new <code>OpenServerR6</code> class inherits from <code>.OpenServer</code> class. We will not use old <code>OpenServer</code> because collides with <code><a href="../reference/openserver.html">openserver()</a></code> function.</li>
+<li>new <code>OpenServerR6</code> class inherits from <code>.OpenServer</code> class. We will not use old <code>OpenServer</code> because collides with <code>openserver()</code> function.</li>
 <li>new function <code><a href="../reference/newOpenServer.html">newOpenServer()</a></code> that represents <code>.OpenServer$new()</code> or <code>OpenServerR6$new()</code>.</li>
 <li>keep <code><a href="../reference/setOpenServer.html">setOpenServer()</a></code> as it does the same as <code><a href="../reference/newOpenServer.html">newOpenServer()</a></code>.</li>
 <li>update R6 class with a structure that does not produce warnings or notes</li>
@@ -179,6 +179,8 @@
 <li>add note in <code>README</code> for <code>RDCOMClient</code> installation</li>
 <li>add new functions to <code>pkgdown</code>
 </li>
+<li>add Makefile because <code>pkgdown</code> requires building README, install package before building the documentation website.</li>
+<li>change repository from <code>github.com/f0nzie/rOpenserver</code> to <code>github.com/og-analytics/rOpenserver</code>. Make changes in README, DESCRIPTION and <code>_pkgdown.yml</code> files.</li>
 <li>TODO: complete data objects for GAP and MBAL tests</li>
 <li>TODO: check long vector in well test, when most rows are zeros. This is addressed in rProsper as well.</li>
 </ul>
@@ -269,7 +271,7 @@
 <pre><code>&gt; library(rOpenserver)
 &gt; 
 &gt; test_check("rOpenserver")
--- 1. Error: README code behaves the same in tests (<a href='https://github.com/test_readme'>@test_readme</a>.R<a href='https://github.com/f0nzie/rOpenserver/issues/26'>#26</a>)  --------------------------------------
+-- 1. Error: README code behaves the same in tests (<a href='https://github.com/test_readme'>@test_readme</a>.R<a href='https://github.com/og-analytics/rOpenserver/issues/26'>#26</a>)  --------------------------------------
 object 'open_cmd' not found
 Backtrace:
  1. R62S3:::DoCmd(prosper_server, open_cmd)

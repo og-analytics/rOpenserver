@@ -22,6 +22,7 @@
 * add note in `README` for `RDCOMClient` installation
 * add new functions to `pkgdown`
 * add Makefile because `pkgdown` requires building README, install package before building the documentation website.
+* change repository from `github.com/f0nzie/rOpenserver` to `github.com/og-analytics/rOpenserver`. Make changes in README, DESCRIPTION and `_pkgdown.yml` files.
 * TODO: complete data objects for GAP and MBAL tests
 * TODO: check long vector in well test, when most rows are zeros. This is addressed in rProsper as well.
 
