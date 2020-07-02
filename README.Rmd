@@ -19,11 +19,11 @@ The goal of `rOpenserver` is providing an **R** interface to Petex (Petroleum Ex
 
 
 ## Installation
-`rOpenserver` is not in [CRAN](https://cran.r-project.org/) yet but in the meantime, you can install it from  GtiHub using the `devtools` package, from the [rOpenserver repository](https://github.com/f0nzie/rOpenserver) with:
+`rOpenserver` is not in [CRAN](https://cran.r-project.org/) yet but in the meantime, you can install it from  GtiHub using the `devtools` package, from the [rOpenserver repository](https://github.com/og-analytics/rOpenserver) with:
 
 ```{r eval=FALSE}
 install.packages("devtools")
-devtools::install_github("f0nzie/rOpenserver", dependencies = TRUE)
+devtools::install_github("og-analytics/rOpenserver", dependencies = TRUE)
 ```
 
 The argument `dependencies` has the role of downloading and installing packages that are key for rOpenserver, such as `R6` and `RDCOMClient`. If you want to install `RDCOMClient` separately you could install it from its repository via `devtools` as well. Then after you could proceed to install `rOpenServer`.

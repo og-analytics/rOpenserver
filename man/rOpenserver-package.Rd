@@ -12,7 +12,7 @@ Provide a COM interface to R so it can talk to Petex's IPM
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/f0nzie/rOpenserver}
+  \item \url{https://github.com/og-analytics/rOpenserver}
 }
 
 }

@@ -46,6 +46,8 @@ test:
 README.md: README.Rmd
 	Rscript --vanilla -e 'library(rmarkdown);render("$<")'
 
+gh-pages:
+	git subtree push --prefix docs origin docs
 
 clean:
 	cd ..;\
