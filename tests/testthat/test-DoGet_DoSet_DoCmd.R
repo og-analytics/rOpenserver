@@ -34,7 +34,7 @@ context("Test DoSet for Prosper")
 
 test_that("DoSet, DoCmd work", {
     # Initialize OpenServer
-    prosper_server <- OpenServer$new()
+    prosper_server <- .OpenServer$new()
 
     expect_true(all(names(prosper_server) %in% oserver_methods))
 
@@ -78,7 +78,7 @@ context("Test DoGet for Prosper")
 
 test_that("DoGet, DoCmd work", {
     # Initialize OpenServer
-    prosper_server <- OpenServer$new()
+    prosper_server <- OpenServerR6$new()
 
     expect_true(all(names(prosper_server) %in% oserver_methods))
 
@@ -113,9 +113,9 @@ test_that("DoGet, DoCmd work", {
 context("Create server instance with OpenServer$new")
 
 test_that("OpenServer with $new() loads", {
-    mserver <- OpenServer$new()
+    mserver <- .OpenServer$new()
     expect_s4_class(mserver$server, "COMIDispatch")
-    expect_true(all(class(mserver) %in% c("OpenServer", "R6")))
+    expect_true(all(class(mserver) %in% c(".OpenServer", "R6", "OpenServer")))
     expect_true(all(names(mserver) %in% oserver_methods))
     mserver <- NULL
 })
@@ -128,20 +128,20 @@ test_that("OpenServer with setOpenServer function works", {
     mserver <- setOpenServer()
     # tests
     expect_s4_class(mserver$server, "COMIDispatch")
-    expect_true(all(class(mserver) %in% c("OpenServer", "R6")))
+    expect_true(all(class(mserver) %in% c(".OpenServer", "R6", "OpenServer")))
     expect_true(all(names(mserver) %in% oserver_methods))
     mserver <- NULL
 })
 
 
 
-context("openserver function as constructor")
-
-test_that("openserver function works", {
-    mserver <- openserver()
-    expect_s4_class(mserver$server, "COMIDispatch")
-    expect_true(all(class(mserver) %in% c("OpenServer", "R6")))
-    expect_true(all(names(mserver) %in% oserver_methods))
-    mserver <- NULL
-})
+# context("openserver function as constructor")
+#
+# test_that("openserver function works", {
+#     mserver <- openserver()
+#     expect_s4_class(mserver$server, "COMIDispatch")
+#     expect_true(all(class(mserver) %in% c("OpenServer", "R6")))
+#     expect_true(all(names(mserver) %in% oserver_methods))
+#     mserver <- NULL
+# })
 
