@@ -44,6 +44,7 @@ test:
 
 
 README.md: README.Rmd
+	# this command is not right because it generates HTML file
 	Rscript --vanilla -e 'library(rmarkdown);render("$<")'
 
 gh-pages:
